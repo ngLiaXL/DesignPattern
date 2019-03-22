@@ -31,6 +31,7 @@ class FactoryAbstract {
     /**
      * User，Printer式产品等级
      * Usb，Ble 产品族
+     * 打印机类型易于扩展
      */
     class Manager {
 
