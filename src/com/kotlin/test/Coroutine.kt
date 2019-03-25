@@ -1,13 +1,21 @@
 package com.kotlin.test
 
-import javax.xml.bind.JAXBElement
-
 
 fun main(args: Array<String>) {
 
+
+    var name : String = "a"
+
+    var n2 = name.let {
+
+        println(it)
+
+        "b"
+    }
+
+    println(n2)
+
 }
 
 
-fun test1(){
 
-}
