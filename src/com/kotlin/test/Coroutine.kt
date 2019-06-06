@@ -1,21 +1,30 @@
 package com.kotlin.test
 
-
 fun main(args: Array<String>) {
 
 
-    var name : String = "a"
-
-    var n2 = name.let {
-
-        println(it)
-
-        "b"
+    val str: String by lazy {
+        "abcdef"
     }
 
-    println(n2)
 
 }
+
+
+class BaseActivity{
+
+    fun onCreate(){
+
+    }
+
+}
+
+
+class MyActivity{
+
+
+}
+
 
 
 
