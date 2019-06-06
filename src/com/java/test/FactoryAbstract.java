@@ -7,7 +7,7 @@ package com.java.test;
  * 产品只有一个的时候，抽象工厂退化成工厂方法
  * 工厂方法产品变多时，进化成抽象工厂
  */
-public class AbstractFactory {
+public class FactoryAbstract {
 
     public static void main(String[] args) {
 
